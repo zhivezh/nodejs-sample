@@ -1,7 +1,7 @@
 name: Dependency Vulnerability Check
 
 on:
-
+  workflow_dispatch:
   pull_request:
     types: [opened, synchronize, reopened]  # Trigger on PR creation, updates, and reopen
 jobs:
